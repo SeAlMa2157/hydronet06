@@ -1,0 +1,154 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 200vh;
+  background-image: url('../../assets/fondo.gif');
+  background-size: cover;
+  background-position: center;
+  padding-top: 70px;
+}
+
+.navbar-container-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: rgb(12, 68, 118);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.importance-container {
+  text-align: center;
+  padding: 30px;
+  margin: 70px 20px; 
+  background-color: rgba(252, 252, 252, 0.9);
+  border-radius: 10px;
+}
+
+.importance-title {
+  font-size: 2.5rem;
+  color: #414141;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.importance-text {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.problematicas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-container h2 {
+  font-size: 2.9rem;
+  color: #ffffff;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.tarjetas-container {
+  padding: 30px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tarjeta {
+  width: 300px;
+  height: 370px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  text-align: center;
+}
+
+.tarjeta:hover {
+  transform: translateY(-10px);
+  box-shadow: 6px 6px 12px rgba(1, 1, 106, 0.8);
+}
+
+.tarjeta-imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.tarjeta h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.tarjeta p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.canvas-sea-container {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background-color: transparent;
+}
+
+.intro-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 165vh;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Alinea el contenido en la parte superior */
+  padding-top: 350px; /* Da un espacio desde la parte superior */
+}
+
+.intro-screen h1 {
+  font-size: 2rem;
+}
+
+.intro-screen p {
+  margin-top: 10px;
+}
+
+.intro-screen button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #005f73;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.intro-screen button:hover {
+  background-color: #0a9396;
+}
